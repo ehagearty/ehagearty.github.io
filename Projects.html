@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<html lang="en">
+<style type="text/css">
+body,td,th {
+	font-family: "Microsoft Yi Baiti";
+	text-align: left;
+	border-left-width: thick;
+	text-indent: 12px;
+}
+h1 {
+	font-family: "Microsoft Yi Baiti";
+	font-size: 38px;
+	font-stretch:extra-condensed;
+}
+h2,h3,h4,h5,h6 {
+	font-family: "Microsoft Yi Baiti";
+	font-size: 18px;
+}
+a {
+	font-family: "Microsoft Yi Baiti";
+	color: #141414;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #747474;
+}
+a:hover {
+	text-decoration: underline;
+	color: #69ACD3;
+}
+a:active {
+	text-decoration: none;
+	display: inline;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+P {
+	align-content: center;
+	border-left: thick;
+	text-indent: 12px;	
+	max-width:600px;
+	padding-left:230px;
+}
+.img-wrap {
+ 	vertical-align: middle;
+	align-content:center;
+	padding-bottom: 20px;
+}
+img.border {
+            padding: 7px 7px 7px 7px ;
+            }
+.title {
+            font-size: 38px;
+            }
+</style>
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="I'm Elizabeth, a 3rd year at the University of California, Berkeley pursuing a degrees in Computer Science and Gender Women's Studies">
+<meta name="author" content="Elizabeth Hagearty">
+<title>Elizabeth Hagearty</title>
+</head>
+
+<body>
+<header>
+ <div class="img-wrap"> <a class="title">Elizabeth Hagearty</a>  <a href="/#">about</a>  | <a href="/photography">photography</a> | <a href="/projects">projects</a> | <a href="/resume">resume </a></div>
+</header>
+<img src="Projects.png" alt="Suni" width="210" style="float: left; margin: 175px 5px 0 0; vertical-align: middle; background-color: #FFFFFF;"/>
+<p>
+Graph API with clients<br>
+December 2013<br>
+written in Java. Wrote a library package to provide facilities for manipulating graphs, plus two clients, make and trip, that use the package. In the graph package, I implemented depth first and breadth first search algorithms. The trip client was a simplified version of a GPS program that uses A* search to find the shortest path between two points. Make was an implementation of the Unix “make” command.
+<p>Jumping Cubes<br>
+  November 2013<br>
+  Written in Java, I created a game involving a board, where each square has a dot value, which can be played against a human player or another computer program (AI) . I used a minimax algorithm, which employed alpha-beta pruning, in a search tree of moves to find the optimal move. <br>
+  I also created a GUI for 2 player games where the board could be resized and multiple games could be played in the same session.</p>
+<p>Image Recognition<br>
+  February 2014<br>
+  Written in C, we created a program that took in an image and returned what digit the image is by comparing the image with a set of template number images. Template images were flipped, rotated, transposed, and translated onto the given image to determine the closest match.</p>
+<p>Connect Four MapReduce<br>
+  March 2014<br>
+  Written in Java. Constructed a full game tree for connect four, and then solved the game by running minimax to label each game state with a win, loss or tie value. <br>
+  Beginning with an empty board, all possible moves and their subsequent board configurations were generated. With the generated game tree, the optimal move for the player was chosen according to the minimax algorithm. This program implemented two MapReduce jobs to accomplish solving the games.</p>
+<p>
+  <p1></p1>
+</body>
+</html>
