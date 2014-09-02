@@ -438,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact {
-	background-image: url(/assets/img/love2copy.jpg);
+	background-image: url(../love2copy.jpg);
 }
 
 #contactwrap label {
