@@ -87,11 +87,6 @@ h1, h2, h3, h4, h5, h6 {
 	-ms-text-size-adjust: 80%;
 }
 
-h9 {
-	font-size: 80px;
-	font-family: "league script", sans-serif;
-}
-
 /* ==========================================================================
    MENU CONFIGURATION
    ========================================================================== */
@@ -443,7 +438,7 @@ h9 {
 }
 
 .contact {
-	background-image: url(../img/love2copy.jpg);
+	background-image: url(assets/img/love2copy.jpg);
 }
 
 #contactwrap label {
